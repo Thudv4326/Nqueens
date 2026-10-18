@@ -6,7 +6,7 @@ from pysat.solvers import Solver
 from pysat.card import CardEnc, EncType
 
 class NQueensSATSolver:
-    def __init__(self, n, encoding_type='seqcounter', solver_name='cadical195', time_limit=60):
+    def __init__(self, n, encoding_type='seqcounter', solver_name='cadical195', time_limit=200):
         self.n = n
         self.encoding_type = encoding_type
         self.solver_name = solver_name
@@ -74,7 +74,7 @@ class NQueensSATSolver:
             
         return cnf
 
-    def solve(self, time_limit=60):
+    def solve(self, time_limit=200):
         if time_limit is None:
             time_limit = self.time_limit
 
