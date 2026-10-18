@@ -1,6 +1,0 @@
-python-sat
-docplex
-gurobipy
-ortools
-pandas
-matplotlib
