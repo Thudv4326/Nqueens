@@ -1,0 +1,6 @@
+﻿N,Solver,Status,Valid_solution,Solver_reported_time_seconds,Wall_time_seconds,Error
+500,SAT,SAT,True,23.39538299999549,23.495590499980608,
+500,CPLEX CP,SAT,True,0.12890490001882426,0.13325590000022203,
+500,CPLEX MIP,SAT,True,1.8474748999869917,16.997360099980142,
+500,Gurobi,ERROR,False,,12.047681600000942,"GurobiError(10010, 'Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information')"
+500,CP-SAT,TIMEOUT,False,300.24468199998955,300.25160349998623,

@@ -1,0 +1,11 @@
+﻿N,Solver,Status,Valid_solution,Solver_reported_time_seconds,Wall_time_seconds,Error
+100,SAT,SAT,True,0.38172520001535304,0.3851389999908861,
+100,CPLEX CP,SAT,True,0.035828899999614805,0.03727130001061596,
+100,CPLEX MIP,SAT,True,0.05337740000686608,0.26518610000493936,
+100,Gurobi,ERROR,False,,0.13103469999623485,"GurobiError(10010, 'Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information')"
+100,CP-SAT,SAT,True,0.647920300019905,0.6496416000009049,
+200,SAT,SAT,True,1.8148187999904621,1.8277060000109486,
+200,CPLEX CP,SAT,True,0.04798370000207797,0.05016549999709241,
+200,CPLEX MIP,SAT,True,0.2885244000062812,1.4749101999914274,
+200,Gurobi,ERROR,False,,0.9540425000013784,"GurobiError(10010, 'Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information')"
+200,CP-SAT,SAT,True,11.406256499991287,11.40908969999873,
